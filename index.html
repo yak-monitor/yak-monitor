@@ -1,0 +1,1075 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow, noarchive">
+<title>폰진료·의료플랫폼 모니터</title>
+<meta name="description" content="의약품 전달체계와 중개플랫폼 관련 보도·게시물을 살펴보는 참고 자료입니다. 의약품 배송·비대면진료·의료 중개플랫폼·의료 공공성 관련 글을 수집하며, AI 분류는 여론조사 결과가 아닙니다.">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="폰진료·의료플랫폼 모니터">
+<meta property="og:title" content="폰진료·의료플랫폼 모니터">
+<meta property="og:description" content="의약품 전달체계와 중개플랫폼 관련 보도·게시물을 살펴보는 참고 자료입니다. 의약품 배송·비대면진료·의료 중개플랫폼·의료 공공성 관련 글을 수집하며, AI 분류는 여론조사 결과가 아닙니다.">
+<meta property="og:url" content="https://yak-monitor.github.io/yak-monitor/">
+<meta property="og:locale" content="ko_KR">
+<meta name="twitter:title" content="폰진료·의료플랫폼 모니터">
+<meta name="twitter:description" content="의약품 전달체계와 중개플랫폼 관련 보도·게시물을 살펴보는 참고 자료입니다. 의약품 배송·비대면진료·의료 중개플랫폼·의료 공공성 관련 글을 수집하며, AI 분류는 여론조사 결과가 아닙니다.">
+<meta property="og:image" content="https://yak-monitor.github.io/yak-monitor/og.png?v=7fe0629d">
+<meta property="og:image:secure_url" content="https://yak-monitor.github.io/yak-monitor/og.png?v=7fe0629d">
+<meta property="og:image:type" content="image/png">
+<meta property="og:image:width" content="1731">
+<meta property="og:image:height" content="909">
+<meta property="og:image:alt" content="폰진료·의료플랫폼 모니터 - 수집 게시물 AI 분류 모니터링 자료">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://yak-monitor.github.io/yak-monitor/og.png?v=7fe0629d">
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
+<style>
+:root{
+  --paper:#F5F8F7; --panel:#FFFFFF; --ink:#1B2A27; --muted:#5F6F6B; --line:#D9E2DF;
+  --teal:#0F6E60; --teal-soft:#DCEEEA; --brick:#B4462F; --brick-soft:#F6E3DE;
+  --grey:#7C8A86; --amber:#E2A93B; --focus:#1463FF;
+  --pill-empty:#EEF3F1; --pill-lid:#E3EAE7; --on-teal:#FFFFFF;
+  /* 입장 추이 그래프 색 (색각 검사 통과: 찬성·중립·반대) */
+  --ch-pro:#B4462F; --ch-neu:#7C8A86; --ch-con:#0F6E60;
+}
+@media (prefers-color-scheme: dark){
+  :root{
+    --paper:#131C1A; --panel:#1A2522; --ink:#E6EEEB; --muted:#98A8A3; --line:#2C3A36;
+    --teal:#3DB39E; --teal-soft:#1D3B35; --brick:#E0775F; --brick-soft:#3E2620;
+    --grey:#8C9A96; --amber:#E7B75A; --pill-empty:#20302C; --pill-lid:#263833; --on-teal:#0B1F1B;
+    /* 어두운 화면: 중립 회색을 한 단계 어둡게 해 청록(반대)과 구분되게 (색각 검사 통과) */
+    --ch-pro:#E0775F; --ch-neu:#5F6B68; --ch-con:#3DB39E;
+  }
+}
+*{box-sizing:border-box}
+[hidden]{display:none!important} /* .more{display:block} 등이 hidden을 덮어쓰지 않게 */
+.viewer{margin-left:auto}
+html,body{margin:0}
+body{
+  background:var(--paper); color:var(--ink);
+  font-family:"Pretendard Variable",Pretendard,-apple-system,"Apple SD Gothic Neo","Malgun Gothic",sans-serif;
+  font-size:15px; line-height:1.55; -webkit-font-smoothing:antialiased;
+}
+button,input,select,textarea{font:inherit;color:inherit}
+:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+a{color:inherit}
+
+.wrap{max-width:1280px;margin:0 auto;padding:20px 24px 60px}
+
+/* header */
+header{display:flex;align-items:center;gap:16px;flex-wrap:wrap;margin-bottom:20px}
+header h1{font-size:22px;font-weight:750;letter-spacing:-.02em;margin:0;display:flex;align-items:center;gap:10px}
+.cross{width:22px;height:22px;position:relative;flex:none}
+.cross::before,.cross::after{content:"";position:absolute;background:var(--teal);border-radius:2px}
+.cross::before{left:7px;top:0;width:8px;height:22px}
+.cross::after{top:7px;left:0;width:22px;height:8px}
+.status{color:var(--muted);font-size:13px;margin-left:auto;display:flex;align-items:center;gap:8px}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--grey)}
+.dot.live{background:var(--teal);animation:pulse 1.2s infinite}
+@keyframes pulse{50%{opacity:.3}}
+@media (prefers-reduced-motion:reduce){.dot.live{animation:none}}
+.btn{border:1px solid var(--line);background:var(--panel);padding:7px 14px;border-radius:8px;cursor:pointer;font-size:14px;font-weight:600}
+.btn:hover{border-color:var(--teal)}
+.btn.primary{background:var(--teal);border-color:var(--teal);color:var(--on-teal)}
+.btn:disabled{opacity:.5;cursor:default}
+.btn.small{padding:4px 10px;font-size:13px;font-weight:500}
+
+/* pillbox */
+.top{display:grid;grid-template-columns:minmax(0,1fr) 320px;gap:20px;margin-bottom:24px}
+.pillbox{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:16px 18px 14px;display:flex;flex-direction:column}
+.pillbox h2,.stance h2{font-size:14px;font-weight:650;margin:0 0 12px;color:var(--muted)}
+.pillbox h2 b{color:var(--ink);font-weight:700}
+.weeks{display:grid;grid-template-rows:1fr 1fr;gap:10px;flex:1}
+.week{display:grid;grid-template-columns:repeat(7,minmax(0,1fr));gap:6px}
+.cell{display:flex;flex-direction:column;align-items:stretch;gap:4px}
+.lid{height:9px;border-radius:6px 6px 2px 2px;background:var(--pill-lid);display:flex;justify-content:center;align-items:center;font-size:10px;color:var(--muted);line-height:1}
+.box{position:relative;flex:1;min-height:48px;border-radius:3px 3px 10px 10px;background:var(--pill-empty);overflow:hidden;border:1px solid transparent}
+.fill{position:absolute;left:0;right:0;bottom:0;background:var(--teal);opacity:.85;transition:height .5s ease}
+.box .n{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-weight:700;font-variant-numeric:tabular-nums;font-size:15px;mix-blend-mode:normal}
+.box.dark .n{color:var(--on-teal)}
+.cell.today .box{border-color:var(--ink)}
+.cell .d{font-size:11px;color:var(--muted);text-align:center;font-variant-numeric:tabular-nums}
+.cell.today .d{color:var(--ink);font-weight:700}
+
+.stance{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:16px 18px;display:flex;flex-direction:column}
+.bar{display:flex;height:14px;border-radius:7px;overflow:hidden;background:var(--pill-empty);margin-bottom:12px}
+.bar span{display:block;height:100%}
+.legend{display:grid;grid-template-columns:1fr auto;gap:4px 12px;font-size:14px;margin-bottom:12px}
+.legend .k{display:flex;align-items:center;gap:8px}
+.legend .sw{width:10px;height:10px;border-radius:3px}
+.legend .v{font-variant-numeric:tabular-nums;font-weight:600;text-align:right}
+.stance .note{font-size:12px;color:var(--muted);margin-top:auto}
+
+/* main */
+.main{display:grid;grid-template-columns:220px minmax(0,1fr);gap:24px}
+aside nav{display:flex;flex-direction:column;gap:2px}
+.src{display:flex;justify-content:space-between;align-items:center;padding:8px 10px;border-radius:8px;cursor:pointer;border:0;background:none;text-align:left;width:100%;font-size:14px}
+.src:hover{background:var(--pill-empty)}
+.src.on{background:var(--teal-soft);color:var(--teal);font-weight:700}
+.src .c{font-size:12px;color:var(--muted);font-variant-numeric:tabular-nums}
+.src .c b{color:var(--brick);font-weight:700;margin-right:4px}
+.src.off{opacity:.45}
+aside h3{font-size:13px;color:var(--muted);font-weight:650;margin:22px 10px 6px}
+.quick{display:flex;flex-direction:column;gap:2px;font-size:13px}
+.quick details{padding:4px 10px}
+.quick summary{cursor:pointer;padding:3px 0}
+.quick a{display:block;padding:3px 0 3px 12px;color:var(--muted);text-decoration:none}
+.quick a:hover{color:var(--teal);text-decoration:underline}
+.quick p{font-size:12px;color:var(--muted);margin:6px 10px 0;line-height:1.5}
+
+.toolbar{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:12px}
+.toolbar input[type=search]{flex:1 1 200px;min-width:0;padding:8px 12px;border:1px solid var(--line);border-radius:8px;background:var(--panel)}
+.toolbar select{padding:7px 8px;border:1px solid var(--line);border-radius:8px;background:var(--panel)}
+.toggle{display:flex;align-items:center;gap:6px;font-size:14px;padding:0 4px;cursor:pointer;user-select:none}
+.meta-row{display:flex;justify-content:space-between;align-items:center;font-size:13px;color:var(--muted);margin-bottom:8px;gap:8px;flex-wrap:wrap}
+.meta-row .acts{display:flex;gap:6px}
+
+.newbar{display:none;width:100%;border:0;background:var(--teal);color:var(--on-teal);padding:9px;border-radius:8px;font-weight:650;cursor:pointer;margin-bottom:10px}
+.newbar.show{display:block}
+
+.feed{list-style:none;margin:0;padding:0;background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden}
+.item{display:grid;grid-template-columns:4px minmax(0,1fr) auto;border-bottom:1px solid var(--line)}
+.item:last-child{border-bottom:0}
+.item .edge{background:transparent}
+.item[data-stance="찬성"] .edge{background:var(--brick)}
+.item[data-stance="반대"] .edge{background:var(--teal)}
+.item[data-stance="중립"] .edge{background:var(--grey)}
+.item .body{padding:12px 14px;min-width:0}
+.item .line1{display:flex;gap:10px;align-items:center;font-size:12.5px;color:var(--muted);flex-wrap:wrap}
+.tag{font-weight:700;font-size:11.5px;padding:1px 7px;border-radius:4px;color:#fff}
+.tag.naver_news,.tag.naver_blog,.tag.naver_cafe{background:#1E9A55}
+.tag.daum_blog,.tag.daum_cafe{background:#3B6FD8}
+.tag.youtube{background:#CC3A2E}
+.tag.google_news{background:#5E6B72}
+.tag.community{background:#7A4FB5}
+.st{font-weight:700;font-size:12px}
+.st.찬성{color:var(--brick)} .st.반대{color:var(--teal)} .st.중립,.st.무관{color:var(--grey)}
+.item h4{margin:4px 0 2px;font-size:15.5px;font-weight:500;line-height:1.45}
+.item.unread h4{font-weight:700}
+.item.unread h4::before{content:"";display:inline-block;width:7px;height:7px;border-radius:50%;background:var(--brick);margin-right:7px;vertical-align:2px}
+.item h4 a{text-decoration:none}
+.item h4 a:hover{text-decoration:underline;color:var(--teal)}
+.item .snip{margin:0;color:var(--muted);font-size:13.5px;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;max-width:78ch}
+.item .ai{margin:4px 0 0;font-size:13px}
+.item .ai b{color:var(--teal);font-weight:650;margin-right:6px}
+.item .side{display:flex;flex-direction:column;gap:4px;padding:10px 10px 10px 0;align-items:flex-end}
+.icon{border:0;background:none;cursor:pointer;padding:4px 6px;border-radius:6px;font-size:16px;line-height:1;color:var(--muted)}
+.icon:hover{background:var(--pill-empty)}
+.icon.star.on{color:var(--amber)}
+.more{display:block;margin:12px auto 0}
+
+.empty{padding:40px 24px;text-align:center;color:var(--muted)}
+.empty strong{display:block;color:var(--ink);font-size:17px;margin-bottom:6px}
+.errors{margin:0 0 12px;padding:10px 14px;border-radius:10px;background:var(--brick-soft);font-size:13px}
+.errors summary{cursor:pointer;font-weight:650;color:var(--brick)}
+.errors li{margin:3px 0}
+
+/* settings */
+dialog{border:1px solid var(--line);border-radius:16px;padding:0;background:var(--panel);color:var(--ink);width:min(680px,94vw);max-height:90vh}
+dialog::backdrop{background:rgba(10,20,18,.45)}
+.dlg-h{display:flex;justify-content:space-between;align-items:center;padding:16px 22px;border-bottom:1px solid var(--line);position:sticky;top:0;background:var(--panel)}
+.dlg-h h2{margin:0;font-size:18px}
+.dlg-b{padding:18px 22px;display:grid;gap:18px}
+fieldset{border:0;padding:0;margin:0;display:grid;gap:8px}
+legend{font-weight:700;font-size:15px;margin-bottom:4px;padding:0}
+label.f{display:grid;gap:4px;font-size:13px;color:var(--muted)}
+label.f input,label.f textarea{padding:8px 10px;border:1px solid var(--line);border-radius:8px;background:var(--paper);color:var(--ink);font-size:14px}
+label.f textarea{min-height:92px;resize:vertical}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.hint{font-size:12.5px;color:var(--muted);margin:0}
+.hint a{color:var(--teal)}
+.set{font-size:11.5px;color:var(--teal);font-weight:650}
+.checks{display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:6px;font-size:14px}
+.dlg-f{display:flex;justify-content:flex-end;gap:8px;padding:14px 22px;border-top:1px solid var(--line);position:sticky;bottom:0;background:var(--panel)}
+
+.guests{list-style:none;margin:6px 0 0;padding:0;display:grid;gap:6px}
+.guests li{display:flex;align-items:center;gap:10px;font-size:14px;background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:6px 10px}
+.guests li code{font-size:15px;font-weight:700;letter-spacing:1px;color:var(--teal)}
+.guests li .name{flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+body.guest .side,body.guest .newbar{display:none}
+body.guest .newbar.fresh.show{display:block}
+/* GitHub Pages 보관본은 첫 데이터 요청 전부터 관리자 전용 UI를 표시하지 않음 */
+body.snapshot #collectBtn,body.snapshot #settingsBtn,body.snapshot #aiBtn,
+body.snapshot #readAllBtn,body.snapshot #hiddenToggle,body.snapshot #unreadToggle,
+body.snapshot #starredToggle,body.snapshot dialog{display:none!important}
+.viewer{font-size:13px;color:var(--muted)}
+.viewer a{color:var(--teal)}
+/* 오늘의 흐름 (AI 요약) */
+.summary{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:14px 18px;margin:0 0 20px}
+.summary .sum-h{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:6px}
+.summary h2{font-size:14px;font-weight:650;margin:0;color:var(--muted)}
+.summary .sum-meta{font-size:12px;color:var(--muted)}
+.summary ul{margin:0;padding-left:18px;display:grid;gap:3px;font-size:14.5px}
+/* 날짜별 입장 추이 */
+.trend{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:16px 18px 12px;margin:-4px 0 24px}
+.trend-h{display:flex;justify-content:space-between;align-items:center;gap:10px;flex-wrap:wrap;margin-bottom:10px}
+.trend-h h2{font-size:14px;font-weight:650;margin:0;color:var(--muted)}
+.trend-h h2 span{font-weight:500;font-size:12px}
+.tlegend{display:flex;gap:12px;font-size:13px;color:var(--ink)}
+.tlegend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:5px;vertical-align:-1px}
+.tchart{position:relative;display:grid;grid-template-columns:repeat(14,minmax(0,1fr));gap:4px;height:150px;align-items:end;
+  border-bottom:1px solid var(--line);background:linear-gradient(to top,transparent calc(50% - .5px),var(--line) calc(50% - .5px),var(--line) calc(50% + .5px),transparent calc(50% + .5px))}
+.tcol{height:100%;display:flex;justify-content:center;align-items:flex-end;cursor:default;outline:none}
+.tbar{width:min(24px,70%);height:100%;display:flex;flex-direction:column-reverse;gap:2px;border-radius:4px 4px 0 0;overflow:hidden}
+.tbar.tnone{height:4px;background:var(--pill-empty);border-radius:2px} /* 분류된 글이 없는 날 (.empty 는 목록 안내문 이름과 겹쳐서 쓰지 않음) */
+.tbar span{display:block;width:100%}
+.tcol:hover .tbar,.tcol:focus .tbar{filter:brightness(1.08)}
+.tdates{display:grid;grid-template-columns:repeat(14,minmax(0,1fr));gap:4px;font-size:10.5px;color:var(--muted);text-align:center;margin-top:5px;font-variant-numeric:tabular-nums}
+.tdates .today{color:var(--ink);font-weight:700}
+.ttip{position:absolute;pointer-events:none;background:var(--ink);color:var(--paper);font-size:12.5px;line-height:1.5;padding:7px 10px;border-radius:8px;white-space:nowrap;transform:translate(-50%,-100%);z-index:5}
+.ttable{margin-top:8px;font-size:13px}
+.ttable summary{cursor:pointer;color:var(--muted)}
+.ttable table{border-collapse:collapse;margin-top:6px;width:100%;max-width:520px}
+.ttable th,.ttable td{padding:3px 8px;border-bottom:1px solid var(--line);text-align:right;font-variant-numeric:tabular-nums}
+.ttable th:first-child,.ttable td:first-child{text-align:left}
+/* 관리자용: 입장 고치기·숨기기 */
+.st-edit{font-size:12px;padding:2px 4px;border:1px solid var(--line);border-radius:6px;background:var(--panel)}
+.manual{font-size:11px;color:var(--muted)}
+.notice{background:var(--teal-soft);color:var(--ink);border:1px solid var(--line);border-radius:12px;padding:10px 14px;font-size:13.5px;line-height:1.6;margin:0 0 16px}
+.notice b{color:var(--teal)}
+.notice.warn{background:var(--brick-soft)}
+.notice.warn b{color:var(--brick)}
+.toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:var(--ink);color:var(--paper);padding:10px 16px;border-radius:10px;font-size:14px;opacity:0;pointer-events:none;transition:opacity .2s}
+.toast.show{opacity:1}
+
+@media (max-width:980px){
+  .top{grid-template-columns:1fr}
+  .main{grid-template-columns:minmax(0,1fr)}
+  aside nav{flex-direction:row;overflow-x:auto;gap:4px}
+  .src{white-space:nowrap;width:auto;gap:8px}
+  /* 휴대폰에서도 X·인스타 바로가기를 쓸 수 있게 접힌 목록으로 남겨 둠 */
+  aside h3{margin:14px 10px 4px}
+  .quick{flex-direction:row;flex-wrap:wrap}
+  .quick details{flex:1 1 45%}
+  .quick p{flex-basis:100%}
+}
+@media (max-width:560px){
+  .wrap{padding:14px 12px 40px}
+  .grid2{grid-template-columns:1fr}
+  .box{min-height:36px}
+  .status{margin-left:0;width:100%}
+}
+.topic-picker{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px;margin:0 0 16px}
+.topic-heading{display:flex;align-items:baseline;gap:8px 14px;flex-wrap:wrap;margin-bottom:14px}
+.topic-heading h2{font-size:19px;font-weight:750;letter-spacing:-.02em;margin:0}
+.topic-heading p{margin:0}
+.topic-tabs{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:10px}
+.topic-choice{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:12px;min-width:0;min-height:136px;padding:22px 12px;border-radius:12px;font-size:18px;font-weight:750;line-height:1.35;word-break:keep-all;overflow-wrap:anywhere}
+.topic-icon{display:block;width:40px;height:40px;flex-shrink:0;color:var(--teal)}
+.topic-choice .topic-check{position:absolute;right:8px;top:8px;display:grid;place-items:center;width:20px;height:20px;border-radius:50%;background:var(--on-teal);color:var(--teal);font-size:14px;visibility:hidden}
+.topic-tabs .on,.issue-filters .on{background:var(--teal);border-color:var(--teal);color:var(--on-teal)}
+.topic-choice.on .topic-icon{color:inherit}.topic-choice.on .topic-check{visibility:visible}
+@media(hover:hover){.topic-choice:hover:not(.on){background:var(--teal-soft);border-color:var(--teal)}}
+/* 보조 버튼(주제 분류 보류·광고성 글): 큰 주제보다 훨씬 작게, 그래도 눈에 띄게 한 줄로 */
+.topic-extra{grid-column:1/-1;display:flex;justify-content:flex-end;flex-wrap:wrap;gap:10px;margin-top:4px}
+.topic-pending{display:inline-flex;align-items:center;gap:7px;min-height:44px;padding:8px 18px;border-radius:22px;font-size:14.5px;font-weight:650;border-width:1.5px}
+.topic-pending .topic-mini{width:18px;height:18px;flex-shrink:0}
+.topic-pending[data-topic="pending"]{background:var(--pill-empty);color:var(--ink)}
+.topic-pending[data-topic="ad"]{background:var(--brick-soft);border-color:var(--brick);color:var(--brick)}
+.topic-tabs .topic-pending.on{background:var(--teal);border-color:var(--teal);color:var(--on-teal)}
+.topic-pending .topic-check{display:none}.topic-pending.on .topic-check{display:inline}
+.issue-filters{display:flex;flex-wrap:wrap;gap:8px;margin:12px 0}
+.issue-filters .btn{border-radius:20px;font-size:12px}
+.topic-summary{display:grid;grid-template-columns:1fr 2fr;gap:20px;margin:16px 0}
+.topic-summary>div{background:var(--panel);border:1px solid var(--line);border-radius:16px;padding:18px}
+.topic-summary h2{font-size:32px;margin:4px 0}
+#issueCounts{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}
+.article-tags{display:flex;flex-wrap:wrap;gap:6px;margin:8px 0 2px}
+.article-tags .btn{font-size:11px;background:var(--teal-soft);padding:2px 7px}
+.analysis-actions{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+header h1{min-width:0;overflow-wrap:anywhere}header h1 .cross{flex-shrink:0}
+@media(max-width:720px){
+  .topic-picker{padding:14px}
+  .topic-heading h2{font-size:18px}
+  .topic-heading{gap:4px;margin-bottom:12px}
+  .topic-tabs{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}
+  .topic-choice{min-height:104px;padding:16px 10px;gap:10px;font-size:16px}
+  .topic-choice[data-topic=""]{grid-column:1/-1;min-height:60px;flex-direction:row;gap:12px}
+  .topic-choice[data-topic=""] .topic-check{top:50%;transform:translateY(-50%)}
+  .topic-icon{width:34px;height:34px}
+  .topic-extra{justify-content:stretch}
+  .topic-pending{flex:1 1 0;justify-content:center;font-size:14px;padding:8px 10px}
+}
+@media(max-width:560px){.topic-summary{grid-template-columns:1fr}.article-tags{line-height:1.8}}
+</style>
+</head>
+<body class="snapshot">
+<div class="wrap">
+  <header>
+    <h1><span class="cross" aria-hidden="true"></span>폰진료·의료플랫폼 모니터</h1>
+    <div class="status"><span class="dot" id="dot"></span><span id="statusText">불러오는 중</span></div>
+    <button class="btn primary" id="collectBtn">지금 수집</button>
+    <button class="btn" id="settingsBtn">설정</button>
+  </header>
+
+  <section class="topic-picker" aria-labelledby="topicHeading">
+    <div class="topic-heading">
+      <h2 id="topicHeading">보고 싶은 주제를 선택하세요</h2>
+      <p class="hint" id="topicHelp">주제를 누르면 관련 글과 통계를 볼 수 있어요.</p>
+    </div>
+    <nav id="topics" class="topic-tabs" aria-label="수집 주제" aria-describedby="topicHelp"></nav>
+  </section>
+
+  <p class="hint" style="margin:0 0 16px">의약품 전달체계와 중개플랫폼 관련 보도·게시물을 살펴보는 참고 자료<br>수집 범위: 의약품 배송 · 폰진료 · 의료 플랫폼·서비스 · 의료 공공성·영리화 (닥터나우·모두닥·나만의닥터 포함)</p>
+  <p class="notice warn" id="tokenWarn" hidden></p>
+  <p class="notice warn" id="hubWarn" hidden></p>
+  <p class="notice" id="notice" hidden>
+    <b>안내</b> 본 화면은 웹에서 수집된 게시물을 AI로 분류한 모니터링 자료이며,
+    <b>전체 국민 또는 이용자의 여론을 대표하는 여론조사 결과가 아닙니다.</b>
+    AI 분류에는 오류가 있을 수 있으니 글 내용은 제목을 눌러 원문에서 확인해 주세요.<br>
+    ※ 일부 SNS(X, Instagram 등)는 자동수집 대상에 포함되지 않을 수 있습니다.<br>
+    ※ 커뮤니티(디시인사이드·더쿠·뽐뿌 등) 글은 <b>포털 공식 검색에 잡힌 일부만</b> 수집되며, <b>해당 커뮤니티의 모든 글이 수집되지는 않습니다.</b> 최근 30일 안에 작성된 글만 모읍니다.
+  </p>
+  <section class="summary" id="summaryBox" hidden aria-label="오늘의 흐름">
+    <div class="sum-h">
+      <h2>오늘의 흐름 · AI 요약</h2>
+      <span class="sum-meta" id="sumMeta"></span>
+      <button class="btn small" id="sumBtn" hidden>요약 다시 만들기</button>
+    </div>
+    <ul id="sumLines"></ul>
+  </section>
+  <p class="hint" style="margin-bottom:14px">주제는 복수 분류됩니다. 제목 기준 임시 분류와 AI 분류를 구분해 표시하며, 쟁점은 글에 실제 언급된 내용만 표시합니다.</p>
+  <div class="analysis-actions"><button class="btn small" id="aiBtn">미분류 주제·쟁점 AI 분석</button><span class="hint" id="aiNote"></span></div>
+  <section class="topic-summary" id="topicSummary"><div><span class="hint">선택 주제 게시물 · 전체 기간</span><h2 id="topicTotal">0건</h2></div><div><b>주요 쟁점</b><div id="issueCounts"></div><p class="hint">복수 태그이므로 쟁점별 합계는 게시물 수와 다를 수 있습니다.</p></div></section>
+  <section class="top">
+    <div class="pillbox" aria-label="최근 2주 일별 글 수">
+      <h2>최근 2주 동안 올라온 글 <b id="sum14">0</b>개</h2>
+      <div class="weeks" id="weeks"></div>
+    </div>
+    <div class="stance" id="deliveryStance">
+      <h2>수집된 글의 AI 입장 분류</h2>
+      <p class="hint" style="margin-bottom:12px">입장 분류 기준: 비대면진료 후 의약품 배송 허용에 대한 게시물의 입장</p>
+      <div class="bar" id="stanceBar"></div>
+      <div class="legend" id="stanceLegend"></div>
+
+    </div>
+  </section>
+
+  <section id="deliveryTrend" class="trend" aria-label="수집된 글의 날짜별 AI 입장 분류">
+    <div class="trend-h">
+      <h2>수집된 글의 날짜별 AI 입장 분류 <span>최근 2주 · 날마다 찬성·중립·반대로 분류된 글의 비율 (무관·미분류 제외)</span></h2>
+      <div class="tlegend">
+        <span><i style="background:var(--ch-pro)"></i>찬성</span>
+        <span><i style="background:var(--ch-neu)"></i>중립</span>
+        <span><i style="background:var(--ch-con)"></i>반대</span>
+      </div>
+    </div>
+    <div class="tchart" id="tchart"></div>
+    <div class="tdates" id="tdates"></div>
+    <details class="ttable"><summary>표로 보기</summary><table id="ttable"></table></details>
+  </section>
+
+  <section class="main">
+    <aside>
+      <nav id="sources" aria-label="출처"></nav>
+      <h3>직접 확인할 곳</h3>
+      <div class="quick" id="quick"></div>
+    </aside>
+
+    <div>
+      <details class="errors" id="errors" hidden><summary id="errSum"></summary><ul id="errList"></ul></details>
+      <div class="issue-filters" id="issues" aria-label="쟁점 필터"></div>
+      <div class="toolbar">
+        <input type="search" id="q" placeholder="제목, 요약, 언론사 검색">
+        <select id="days" aria-label="기간">
+          <option value="">전체 기간</option><option value="1">최근 24시간</option>
+          <option value="3">최근 3일</option><option value="7" selected>최근 7일</option><option value="30">최근 30일</option>
+        </select>
+        <select id="stanceSel" aria-label="입장">
+          <option value="">모든 입장</option><option>찬성</option><option>반대</option>
+          <option>중립</option><option>무관</option><option>미분류</option>
+        </select>
+        <select id="sort" aria-label="정렬">
+          <option value="">최신순</option><option value="views">조회수순 (유튜브)</option>
+        </select>
+        <label class="toggle" id="unreadToggle"><input type="checkbox" id="unread"> 안 읽은 글</label>
+        <label class="toggle" id="starredToggle"><input type="checkbox" id="starred"> 별표</label>
+        <label class="toggle" id="hiddenToggle"><input type="checkbox" id="showHidden"> 숨긴 글만 보기 <span id="hiddenCount" class="manual"></span></label>
+        <label class="toggle"><input type="checkbox" id="hideIrr"> 무관 글 숨기기</label>
+      </div>
+      <div class="meta-row">
+        <span id="count"></span>
+        <span class="acts">
+          <button class="btn small" id="readAllBtn">보이는 글 모두 읽음</button>
+          <button class="btn small" id="csvBtn">CSV로 내보내기</button>
+        </span>
+      </div>
+      <button class="newbar" id="newbar"></button>
+      <ul class="feed" id="feed"></ul>
+      <button class="btn more" id="moreBtn" hidden>더 보기</button>
+    </div>
+  </section>
+</div>
+
+<dialog id="dlg">
+  <form method="dialog" id="settingsForm">
+    <div class="dlg-h"><h2>설정</h2><button class="icon" value="cancel" aria-label="닫기">✕</button></div>
+    <div class="dlg-b">
+      <fieldset>
+        <legend>API 키</legend>
+        <p class="hint">키는 이 컴퓨터의 config.json에만 저장됩니다. 비워 두면 기존 키를 그대로 씁니다. 구글 뉴스는 키 없이 수집됩니다.</p>
+        <div class="grid2">
+          <label class="f">네이버 Client ID <span class="set" data-s="naver_client_id"></span><input name="naver_client_id" autocomplete="off"></label>
+          <label class="f">네이버 Client Secret <span class="set" data-s="naver_client_secret"></span><input name="naver_client_secret" type="password" autocomplete="off"></label>
+          <label class="f">카카오 REST API 키 (다음 검색) <span class="set" data-s="kakao_rest_key"></span><input name="kakao_rest_key" type="password" autocomplete="off"></label>
+          <label class="f">유튜브 Data API 키 <span class="set" data-s="youtube_api_key"></span><input name="youtube_api_key" type="password" autocomplete="off"></label>
+        </div>
+        <p class="hint">발급처: <a href="https://www.ncloud.com/product/applicationService/naverApiHub" target="_blank" rel="noopener noreferrer">NAVER API HUB</a> (네이버 검색. 예전 개발자센터 키도 그대로 넣으면 됩니다), <a href="https://developers.kakao.com/console/app" target="_blank" rel="noopener noreferrer">카카오 개발자</a>, <a href="https://console.cloud.google.com/apis/library/youtube.googleapis.com" target="_blank" rel="noopener noreferrer">Google Cloud 콘솔</a></p>
+      </fieldset>
+      <fieldset>
+        <legend>검색어</legend>
+        <div class="grid2">
+          <label class="f">수집할 키워드 (한 줄에 하나)<textarea name="keywords"></textarea></label>
+          <label class="f">이 중 하나는 들어간 글만 저장<textarea name="relevance_words"></textarea></label>
+        </div>
+        <label class="f">이 단어가 있으면 버리기 (한 줄에 하나)<textarea name="exclude_words" style="min-height:60px"></textarea></label>
+      </fieldset>
+      <fieldset>
+        <legend>수집</legend>
+        <div class="checks" id="srcChecks"></div>
+        <p class="hint" id="webkrInfo"></p>
+        <div class="grid2">
+          <label class="f">수집 간격 (분)<input name="interval_minutes" type="number" min="5"></label>
+          <label class="f">유튜브 수집 간격 (분)<input name="youtube_interval_minutes" type="number" min="30"></label>
+        </div>
+        <p class="hint">유튜브 검색은 하루 무료 할당량이 작습니다. 키워드 6개 기준 240분 간격이면 하루 약 3,600유닛으로 한도(10,000) 안에 들어갑니다. 90분보다 짧게 하지 마세요. "지금 수집"을 눌러도 유튜브는 1시간에 한 번까지만 검색합니다.</p>
+      </fieldset>
+      <fieldset>
+        <legend>다른 사람에게 보여주기</legend>
+        <label class="toggle"><input type="checkbox" id="shareOn"> 다른 기기에서 접속 허용 (보기 전용)</label>
+        <p class="hint" id="shareUrl"></p>
+        <label class="toggle"><input type="checkbox" id="sharePublic"> 코드 없이, 주소만 알면 누구나 보기</label>
+        <p class="hint" id="publicWarn"></p>
+        <div class="grid2">
+          <label class="f">볼 사람 이름<input id="guestName" placeholder="예: 김약사" autocomplete="off"></label>
+          <label class="f">&nbsp;<button type="button" class="btn" id="addGuest">접속 코드 만들기</button></label>
+        </div>
+        <ul class="guests" id="guestList"></ul>
+        <p class="hint">코드를 받은 사람만 볼 수 있습니다. 손님은 보기 전용이라 설정·API 키 확인·수집·읽음 처리를 할 수 없습니다.
+          코드를 삭제하면 바로 못 보게 됩니다. <b>켜고 끈 뒤에는 프로그램을 다시 시작해야 적용됩니다.</b></p>
+      </fieldset>
+      <fieldset>
+        <legend>컴퓨터가 꺼져 있어도 보기 (온라인 보관본)</legend>
+        <label class="toggle"><input type="checkbox" name="publish_enabled"> 수집할 때마다 글 목록을 GitHub Pages에 올리기</label>
+        <div class="grid2">
+          <label class="f">GitHub 저장소 (아이디/저장소이름)<input name="publish_repo" placeholder="예: myid/yak-monitor-view" autocomplete="off"></label>
+          <label class="f">GitHub 토큰 <span class="set" data-s="github_token"></span><input name="github_token" type="password" autocomplete="off"></label>
+        </div>
+        <div style="display:flex;gap:8px;align-items:center;flex-wrap:wrap">
+          <button type="button" class="btn small" id="publishNow">지금 올리기</button>
+          <span class="hint" id="publishInfo"></span>
+        </div>
+        <p class="hint">공개 보관본에는 제목·링크·AI 분류 등 화면에 필요한 정보만 올립니다. 공개 주소는 누구나 볼 수 있으며, 검색 제외 표시는 접근 제한이 아닙니다.</p>
+        <label class="toggle"><input type="checkbox" name="cloud_enabled"> 컴퓨터가 꺼져 있으면 GitHub(클라우드)가 대신 수집</label>
+        <label class="f">수집용 비공개 저장소 (아이디/저장소이름)<input name="cloud_repo" placeholder="예: myid/monitor-private" autocomplete="off"></label>
+        <p class="hint">공개 화면 저장소와 다른 Private 저장소가 필요합니다. DB·검색 설정·PC 동작 기록은 그곳에만 저장합니다.</p>
+        <p class="hint" id="cloudInfo"></p>
+      </fieldset>
+      <fieldset>
+        <legend>AI 분석</legend>
+        <label class="toggle"><input type="checkbox" name="ai_enabled"> 수집할 때마다 새 글의 입장과 한 줄 요약을 자동으로 붙이기</label>
+        <p class="hint" id="claudeHint"></p>
+      </fieldset>
+    </div>
+    <div class="dlg-f">
+      <button class="btn" value="cancel">취소</button>
+      <button class="btn primary" id="saveBtn" value="default">설정 저장</button>
+    </div>
+  </form>
+</dialog>
+
+<div class="toast" id="toast" role="status"></div>
+
+<script>window.SNAPSHOT="data.json";</script>
+<script>
+const $ = s => document.querySelector(s);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const STANCE = [["찬성","var(--brick)"],["반대","var(--teal)"],["중립","var(--grey)"],["무관","var(--line)"],["미분류","var(--pill-empty)"]];
+const DOW = ["일","월","화","수","목","금","토"];
+let state = {topic:"", issue:"", source:"", offset:0, items:[], total:0, lastUnread:null, stats:null};
+
+const TOPICS = {delivery:"의약품 배송",telemedicine:"폰진료",platform:"의료 플랫폼·서비스",public:"의료 공공성·영리화"};
+// 장식 아이콘은 외부 파일 요청 없이 표시합니다. 버튼 이름은 실제 텍스트로 유지합니다.
+const TOPIC_ICONS = {
+  "":'<rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h6"/>',
+  delivery:'<path d="M14 7h4l3 5v5h-3M3 17H1V5h13v12H7M14 17h-3M14 12h7"/><circle cx="5" cy="17" r="2"/><circle cx="16" cy="17" r="2"/>',
+  telemedicine:'<rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4M8 7v3a4 4 0 0 0 8 0V7"/><circle cx="8" cy="6" r="1"/><circle cx="16" cy="6" r="1"/>',
+  platform:'<rect x="6" y="2" width="12" height="20" rx="3"/><path d="M10 5h4M11 18h2"/>',
+  public:'<path d="M5 21V5h4V2h6v3h4v16M2 21h20M10 21v-5h4v5M10 8h4M12 6v4M8 12h1M15 12h1"/>'
+};
+const MINI_ICONS = {  // 보조 버튼용 작은 아이콘
+  pending:'<circle cx="12" cy="12" r="9"/><path d="M9.5 9a2.5 2.5 0 1 1 3.5 2.3c-.6.3-1 .8-1 1.5v.7M12 17h.01"/>',
+  ad:'<path d="M3 11v2a1 1 0 0 0 1 1h2l5 4V6L6 10H4a1 1 0 0 0-1 1zM15 9a4 4 0 0 1 0 6M18 6.5a8 8 0 0 1 0 11"/>'
+};
+function topicButton(id,name){
+  const icon=TOPIC_ICONS[id], mini=MINI_ICONS[id];
+  const svg=(cls,path)=>`<svg class="${cls}" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false">${path}</svg>`;
+  return `<button type="button" class="btn ${icon?'topic-choice':'topic-pending'}" data-topic="${id}" aria-pressed="false">${icon?svg('topic-icon',icon):mini?svg('topic-mini',mini):''}<span class="topic-label">${esc(name)}</span><span class="topic-check" aria-hidden="true">✓</span></button>`;
+}
+const ISSUES = {safety:"환자 안전",misuse:"환자 안전 › 약물 오남용·중복처방",access:"접근성·편의",cost:"비용·건강보험",market:"수수료·시장 지배력",privacy:"개인정보",publicness:"공공성·영리화",policy:"제도·정책"};
+function topicControls(){
+  // 한 번 만든 버튼을 유지해 키보드 포커스가 주제 선택 때 사라지지 않게 합니다.
+  if(!$("#topics").firstElementChild) $("#topics").innerHTML =
+    [["","전체"],...Object.entries(TOPICS)].map(([id,name])=>topicButton(id,name)).join("") +
+    `<div class="topic-extra">${[["pending","주제 분류 보류"],["ad","광고성 글"]].map(([id,name])=>topicButton(id,name)).join("")}</div>`;
+  document.querySelectorAll("#topics [data-topic]").forEach(button=>{
+    const selected=state.topic===button.dataset.topic;
+    button.classList.toggle("on",selected);button.setAttribute("aria-pressed",String(selected));
+  });
+  $("#issues").innerHTML = '<span class="hint">쟁점</span>'+[["","전체"],...Object.entries(ISSUES).filter(([id])=>id!=="misuse"||["safety","misuse"].includes(state.issue)),["pending","쟁점 없음·분류 보류"]].map(([id,name])=>`<button class="btn small ${state.issue===id?'on':''}" data-issue="${id}" aria-pressed="${state.issue===id}">${name}</button>`).join("");
+  const delivery=state.topic==="delivery";
+  $("#deliveryStance").hidden=!delivery; $("#deliveryTrend").hidden=!delivery;
+  $("#stanceSel").hidden=!delivery; $("#hideIrr").closest("label").hidden=!delivery;
+  document.querySelector(".top").style.gridTemplateColumns=delivery?'':'minmax(0,1fr)';
+}
+async function selectTopic(topic){
+  state.topic=topic; state.issue="";state.source="";state.lastUnread=null;
+  $("#stanceSel").value="";$("#hideIrr").checked=false;
+  topicControls();await loadStats();await loadFeed();
+}
+async function selectIssue(issue){state.issue=issue;topicControls();await loadStats();await loadFeed();}
+$("#topics").onclick=e=>{const b=e.target.closest("[data-topic]");if(b) selectTopic(b.dataset.topic);};
+$("#issues").onclick=e=>{const b=e.target.closest("[data-issue]");if(b) selectIssue(b.dataset.issue);};
+function matchTopic(it,p){
+ const topics=it.topics||[], issues=it.issues||[],topic=p.get("topic"),issue=p.get("issue");
+ if(topic==="ad") return !!it.ad;   // '광고성 글' 버튼: 광고성으로 모은 글만
+ if(it.ad) return false;            // 그 밖의 화면·통계에서는 광고성 글을 뺌
+ return (!topic||(topic==="pending"?!topics.length:topics.includes(topic))) && (!issue||(issue==="pending"?!issues.length:issues.includes(issue)));
+}
+
+function toast(msg){const t=$("#toast");t.textContent=msg;t.classList.add("show");clearTimeout(t._h);t._h=setTimeout(()=>t.classList.remove("show"),2600)}
+async function api(path, opts={}){
+  if(window.SNAPSHOT) return snapApi(path);  // 온라인 보관본: 서버 대신 data.json 에서 읽음
+  const r = await fetch(path, {headers:{"Content-Type":"application/json"}, ...opts});
+  if(!r.ok) throw new Error(`${path} ${r.status}`);
+  return r.json();
+}
+
+/* ---------- 온라인 보관본(컴퓨터가 꺼져 있어도 보기) ----------
+   GitHub Pages 에 올라간 index.html 은 window.SNAPSHOT="data.json" 을 갖고 있고,
+   서버 API 대신 아래 함수들이 data.json 을 읽어 같은 모양의 결과를 만들어 줍니다. */
+const DATA_REFRESH_INTERVAL = 30 * 60 * 1000;  // 공개 페이지는 data.json 을 30분에 한 번만 다시 받음 (수집 주기와 같음)
+let snap = null, snapAt = 0, snapReq = null;
+async function snapLoad(force=false){
+  if(snap && !force && Date.now() - snapAt < DATA_REFRESH_INTERVAL) return snap;
+  // 여러 곳에서 동시에 불러도 요청은 한 번만. no-cache: 바뀌지 않았으면 서버가 '그대로(304)'라고만 답해 데이터를 다시 받지 않음
+  if(!snapReq) snapReq = fetch(window.SNAPSHOT, {cache:"no-cache"})
+    .then(r=>{ if(!r.ok) throw new Error("data.json " + r.status); return r.json(); })
+    .then(d=>{ snap = d; snapAt = Date.now(); return d; })
+    .finally(()=>{ snapReq = null; });
+  try{ return await snapReq; }
+  catch(e){ if(snap) return snap; throw e; }  // 잠깐 연결이 끊겨도 받아 둔 자료로 계속 보여 줌
+}
+async function snapRefresh(){  // 30분마다: 새 자료가 올라왔을 때만 통계를 다시 그리고 '새로 보기' 버튼을 띄움
+  if(document.hidden || Date.now() - snapAt < DATA_REFRESH_INTERVAL) return;  // 안 보는 탭은 요청 안 함
+  const before = snap && snap.generated_at;
+  await snapLoad(true).catch(()=>{});
+  if(!snap || snap.generated_at === before) return;
+  await loadStats();
+  const v = document.querySelector(".viewer"); if(v) v.textContent = `보관본 · ${new Date(snap.generated_at).toLocaleString("ko-KR")} 기준`;
+  const b = $("#newbar"); b.textContent = "새로 모인 글이 반영됐어요. 눌러서 새로 보기"; b.classList.add("show","fresh");
+}
+function kstDate(d){ return new Date(d.getTime() + 9*3600*1000).toISOString().slice(0,10); }
+function snapFilter(items, p){
+  const q = (p.get("q")||"").trim().toLowerCase();
+  const days = p.get("days"), stance = p.get("stance"), src = p.get("source");
+  const since = days ? new Date(Date.now() - Number(days)*86400000).toISOString() : null;
+  return items.filter(it=>{
+    if(!matchTopic(it,p)) return false;
+    if(src && it.source !== src) return false;
+    if(stance === "미분류"){ if(it.ai_stance) return false; }
+    else if(stance && it.ai_stance !== stance) return false;
+    if(p.get("hide_irrelevant")==="1" && it.ai_stance === "무관") return false;
+    if(since && new Date(it.published_at) < new Date(since)) return false;
+    if(q && !`${it.title} ${it.snippet||""} ${it.ai_summary||""} ${it.publisher||""}`.toLowerCase().includes(q)) return false;
+    return true;
+  });
+}
+async function snapApi(path){
+  const d = await snapLoad();
+  const u = new URL(path, location.href), p = u.searchParams;
+  if(u.pathname.endsWith("/api/me")) return {admin:false, name:"", public:true, snapshot:true};
+  if(u.pathname.endsWith("/api/items")){
+    let list = snapFilter(d.items, p);
+    if(p.get("sort")==="views") list = [...list].sort((a,b)=>(b.views||0)-(a.views||0));
+    const off = Number(p.get("offset")||0), lim = Number(p.get("limit")||60);
+    return {total:list.length, items:list.slice(off, off+lim)};
+  }
+  if(u.pathname.endsWith("/api/stats")){
+    const today = kstDate(new Date()), per = {}, st = {}, perSt = {};
+    const topicItems=d.items.filter(it=>matchTopic(it,p)), issueCounts={};
+    for(const it of topicItems){
+      for(const tag of new Set(it.issues||[])) issueCounts[tag]=(issueCounts[tag]||0)+1;
+      const k = (it.published_at||"").slice(0,10); per[k] = (per[k]||0) + 1;
+      const s = it.ai_stance || "미분류"; st[s] = (st[s]||0) + 1;
+      (perSt[k] = perSt[k] || {})[s] = (perSt[k][s]||0) + 1;
+    }
+    const days = [];
+    for(let i=13;i>=0;i--){ const dd = kstDate(new Date(Date.now() - i*86400000));
+      days.push({date:dd, count:per[dd]||0, stance:perSt[dd]||{}}); }
+    const sources = Object.entries(d.sources).map(([id,name])=>({id, name,
+      total:topicItems.filter(x=>x.source===id).length, unread:0, enabled:true, needs_key:false}));
+    return {sources, days, stance:st, topic_total:topicItems.length,issue_counts:issueCounts,pending_count:0, collecting:false, ai_running:false, ai_error:null,
+            last_finished:d.generated_at, errors:[], keywords:d.keywords||[], hidden_count:0, summary:d.summary||null};
+  }
+  throw new Error("보관본에서는 지원하지 않는 기능: " + u.pathname);
+}
+// 엑셀이 칸 내용을 수식으로 실행하지 않게(CSV Formula Injection 방어): = + - @ 탭·줄바꿈으로 시작하면 앞에 ' 를 붙여 글자로 취급
+const csvSafe = v => { const s = String(v ?? ""); return /^[=+\-@\t\r\n]/.test(s) ? "'" + s : s; };
+async function snapCsv(){
+  const d = await snapLoad();
+  const list = snapFilter(d.items, params());
+  const cell = v => `"${csvSafe(v).replace(/"/g,'""')}"`;  // 모든 칸을 "…"로 감싸 쉼표·따옴표·줄바꿈이 있어도 안 깨짐
+  const head = ["출처","제목","링크","작성자/언론사","작성일","의약품 배송 입장","AI 요약","조회수","주제","쟁점","분류 상태"];
+  const rows = list.map(r=>[d.sources[r.source]||r.source, r.title, r.url, r.publisher, r.published_at,
+                           r.ai_stance, r.ai_summary, r.views,(r.topics||[]).map(x=>TOPICS[x]).join(" / "),(r.issues||[]).map(x=>ISSUES[x]).join(" / "),r.labels_status==="ai"?"AI 분류":"제목 기준 임시·AI 대기"].map(cell).join(","));
+  const BOM = "\uFEFF";  // 엑셀 한글 깨짐 방지
+  const blob = new Blob([BOM + [head.map(cell).join(","), ...rows].join("\r\n")], {type:"text/csv;charset=utf-8"});
+  const a = document.createElement("a");
+  const objectUrl = URL.createObjectURL(blob);
+  a.href = objectUrl; a.download = `yakbaesong_snapshot.csv`; a.click();
+  setTimeout(()=>URL.revokeObjectURL(objectUrl), 1000);
+}
+function ago(iso){
+  if(!iso) return "";
+  const d = new Date(iso), s = (Date.now()-d)/1000;
+  if(s < 60) return "방금";
+  if(s < 3600) return `${Math.floor(s/60)}분 전`;
+  if(s < 86400) return `${Math.floor(s/3600)}시간 전`;
+  if(s < 86400*7) return `${Math.floor(s/86400)}일 전`;
+  return `${d.getMonth()+1}월 ${d.getDate()}일`;
+}
+function params(extra={}){
+  const p = new URLSearchParams();
+  if(state.topic) p.set("topic",state.topic);
+  if(state.issue) p.set("issue",state.issue);
+  if(state.source) p.set("source", state.source);
+  const q=$("#q").value.trim(); if(q) p.set("q", q);
+  if($("#days").value) p.set("days", $("#days").value);
+  if($("#stanceSel").value) p.set("stance", $("#stanceSel").value);
+  if($("#sort").value) p.set("sort", $("#sort").value);
+  if($("#unread").checked) p.set("unread","1");
+  if($("#starred").checked) p.set("starred","1");
+  if($("#hideIrr").checked && $("#stanceSel").value !== "무관") p.set("hide_irrelevant","1");
+  if($("#showHidden").checked) p.set("hidden","1");
+  for(const [k,v] of Object.entries(extra)) p.set(k,v);
+  return p;
+}
+
+/* ---------- stats ---------- */
+function renderPillbox(days){
+  const max = Math.max(1, ...days.map(d=>d.count));
+  const today = days[days.length-1].date;
+  $("#sum14").textContent = days.reduce((a,d)=>a+d.count,0).toLocaleString();
+  const weeks = [days.slice(0,7), days.slice(7)];
+  $("#weeks").innerHTML = weeks.map(w => `<div class="week">${w.map(d=>{
+    const [y,m,dd] = d.date.split("-").map(Number);
+    const dow = new Date(Date.UTC(y,m-1,dd)).getUTCDay();
+    const h = d.count ? Math.max(10, Math.round(d.count/max*100)) : 0;
+    return `<div class="cell ${d.date===today?"today":""}" title="${d.date}: ${d.count}개">
+      <div class="lid">${DOW[dow]}</div>
+      <div class="box ${h>=55?"dark":""}"><div class="fill" style="height:${h}%"></div><div class="n">${d.count||""}</div></div>
+      <div class="d">${m}/${dd}</div></div>`}).join("")}</div>`).join("");
+}
+function renderStance(st){
+  const total = STANCE.reduce((a,[k])=>a+(st[k]||0),0);
+  $("#stanceBar").innerHTML = total ? STANCE.map(([k,c])=>`<span style="width:${(st[k]||0)/total*100}%;background:${c}" title="${k} ${st[k]||0}"></span>`).join("") : "";
+  $("#stanceLegend").innerHTML = STANCE.map(([k,c])=>{
+    const n = st[k]||0, pct = total ? Math.round(n/total*100) : 0;
+    return `<span class="k"><span class="sw" style="background:${c};${k==="미분류"?"border:1px solid var(--line)":""}"></span>${k}</span><span class="v">${n.toLocaleString()} <span style="color:var(--muted);font-weight:500">(${pct}%)</span></span>`;
+  }).join("");
+}
+/* 날짜별 입장 추이: 날마다 찬성·중립·반대의 비율(100% 막대). 값은 마우스를 올리면 나오는 설명과 '표로 보기'에서 확인 */
+const TREND = [["찬성","var(--ch-pro)"],["중립","var(--ch-neu)"],["반대","var(--ch-con)"]];
+function dayLabel(date){
+  const [y,m,dd] = date.split("-").map(Number);
+  return {md:`${m}/${dd}`, dow:DOW[new Date(Date.UTC(y,m-1,dd)).getUTCDay()]};
+}
+function renderTrend(days){
+  const today = days[days.length-1].date;
+  $("#tchart").innerHTML = days.map((d,i)=>{
+    const s = d.stance || {}, n = TREND.reduce((a,[k])=>a+(s[k]||0),0);
+    const {md, dow} = dayLabel(d.date);
+    const tip = n ? `${md}(${dow}) · 분류된 글 ${n}건<br>` + TREND.map(([k])=>`${k} ${s[k]||0}건 (${Math.round((s[k]||0)/n*100)}%)`).join(" · ")
+                  : `${md}(${dow}) · 분류된 글 없음`;
+    const bar = n ? `<div class="tbar">${TREND.filter(([k])=>s[k]).map(([k,c])=>
+        `<span style="flex:${s[k]} 1 0;background:${c}"></span>`).join("")}</div>` : `<div class="tbar tnone"></div>`;
+    return `<div class="tcol" tabindex="0" data-tip="${esc(tip)}" aria-label="${esc(tip.replace("<br>"," "))}">${bar}</div>`;
+  }).join("");
+  $("#tdates").innerHTML = days.map(d=>{ const {md} = dayLabel(d.date);
+    return `<span class="${d.date===today?"today":""}">${md}</span>`; }).join("");
+  $("#ttable").innerHTML = `<tr><th>날짜</th>${TREND.map(([k])=>`<th>${k}</th>`).join("")}<th>합계</th></tr>` +
+    [...days].reverse().map(d=>{ const s = d.stance||{}, n = TREND.reduce((a,[k])=>a+(s[k]||0),0);
+      const {md, dow} = dayLabel(d.date);
+      return `<tr><td>${md}(${dow})</td>${TREND.map(([k])=>`<td>${s[k]||0}</td>`).join("")}<td>${n}</td></tr>`; }).join("");
+}
+function trendTip(e){
+  const col = e.target.closest(".tcol"), box = $("#tchart");
+  let tip = box.querySelector(".ttip");
+  if(!col){ if(tip) tip.remove(); return; }
+  if(!tip){ tip = document.createElement("div"); tip.className = "ttip"; box.appendChild(tip); }
+  tip.innerHTML = col.dataset.tip;
+  const r = col.getBoundingClientRect(), b = box.getBoundingClientRect();
+  const x = Math.min(Math.max(r.left - b.left + r.width/2, 90), b.width - 90);
+  tip.style.left = x + "px"; tip.style.top = "-6px";
+}
+function renderSummary(sm){
+  const box = $("#summaryBox");
+  if(!sm || !sm.lines || !sm.lines.length){ box.hidden = !(state.me && state.me.admin); $("#sumLines").innerHTML =
+    `<li class="manual">아직 요약이 없습니다. 새 글이 쌓이면 자동으로 만들어집니다.</li>`; $("#sumMeta").textContent = ""; return; }
+  box.hidden = false;
+  $("#sumLines").innerHTML = sm.lines.map(l=>`<li>${esc(l)}</li>`).join("");
+  $("#sumMeta").textContent = `${ago(sm.generated_at)} · ${sm.basis || ""}`;
+}
+function renderSources(list){
+  const all = list.reduce((a,s)=>({t:a.t+s.total,u:a.u+s.unread}),{t:0,u:0});
+  const row = (id,name,t,u,off,nk) => `<button class="src ${state.source===id?"on":""} ${off||nk?"off":""}" data-src="${id}" ${nk?'title="설정에서 API 키를 넣으면 수집합니다"':""}>
+    <span>${name}</span><span class="c">${nk?"키 필요":`${u?`<b>${u}</b>`:""}${t.toLocaleString()}`}</span></button>`;
+  $("#sources").innerHTML = row("","전체",all.t,all.u) + list.map(s=>row(s.id,s.name,s.total,s.unread,!s.enabled,s.needs_key && !s.total)).join("");
+  return all.u;
+}
+function renderQuick(keywords){
+  const kws = keywords;
+  const block = (name, fn) => `<details><summary>${name}</summary>${kws.map(k=>`<a href="${fn(k)}" target="_blank" rel="noopener noreferrer">${esc(k)}</a>`).join("")}</details>`;
+  $("#quick").innerHTML =
+    block("X (트위터)", k=>`https://x.com/search?q=${encodeURIComponent(k)}&f=live`) +
+    block("인스타그램", k=>`https://www.instagram.com/explore/tags/${encodeURIComponent(k.replace(/\s/g,""))}/`) +
+    block("네이버 뉴스 검색", k=>`https://search.naver.com/search.naver?where=news&sort=1&query=${encodeURIComponent(k)}`) +
+    block("다음 뉴스 검색", k=>`https://search.daum.net/search?w=news&sort=recency&q=${encodeURIComponent(k)}`) +
+    block("디시인사이드 (구글, 최근 1주)", k=>`https://www.google.com/search?tbs=qdr:w&q=${encodeURIComponent("site:dcinside.com " + k)}`) +
+    block("더쿠 (구글, 최근 1주)", k=>`https://www.google.com/search?tbs=qdr:w&q=${encodeURIComponent("site:theqoo.net " + k)}`) +
+    block("일베 (구글, 최근 1주)", k=>`https://www.google.com/search?tbs=qdr:w&q=${encodeURIComponent("site:ilbe.com " + k)}`) +
+    block("보배드림 (구글, 최근 1주)", k=>`https://www.google.com/search?tbs=qdr:w&q=${encodeURIComponent("site:bobaedream.co.kr " + k)}`) +
+    `<p>X와 인스타그램은 공식 API가 유료이거나 해시태그 검색이 제한돼 자동 수집에서 뺐습니다. 최신글 검색 화면을 바로 열 수 있게 해 두었어요.</p>` +
+    `<p>커뮤니티 글은 다음(카카오) 공식 검색에 잡힌 것만 모읍니다. 일베처럼 검색에 잘 안 잡히는 곳은 위 링크로 직접 확인하세요.</p>`;
+}
+async function loadStats(){
+  const selectedTopic=state.topic,selectedIssue=state.issue;
+  const s = await api("/api/stats?"+new URLSearchParams({topic:state.topic,issue:state.issue}));
+  if(selectedTopic!==state.topic||selectedIssue!==state.issue)return;
+  $("#topicTotal").textContent=`${(s.topic_total||0).toLocaleString()}건`;
+  $("#issueCounts").innerHTML=Object.entries(s.issue_counts||{}).filter(([id])=>ISSUES[id]).sort((a,b)=>b[1]-a[1]).map(([id,n])=>`<span class="btn small">${ISSUES[id]} ${n}건</span>`).join("")||'<span class="hint">분류된 쟁점이 없습니다. AI 분석 후 표시됩니다.</span>';
+  state.stats = s;
+  renderPillbox(s.days); renderStance(s.stance); renderTrend(s.days); renderSummary(state.topic||state.issue?null:s.summary);
+  if(state.topic||state.issue) $("#summaryBox").hidden=true;
+  $("#hiddenCount").textContent = s.hidden_count ? `(${s.hidden_count})` : "";
+  const unread = renderSources(s.sources);
+  if(!state.quickDone){ renderQuick(s.keywords); state.quickDone = true; }
+  $("#dot").classList.toggle("live", s.collecting || s.ai_running);
+  $("#statusText").textContent = s.collecting ? "수집 중" : s.ai_running ? "AI 분석 중" :
+    s.last_finished ? `마지막 수집 ${ago(s.last_finished)}` : "아직 수집 전";
+  $("#collectBtn").disabled = s.collecting;
+  $("#aiBtn").disabled = s.ai_running || !(s.pending_count || s.stance["미분류"]);
+  if(s.ai_error){ $("#aiNote").textContent = "⚠ " + s.ai_error; $("#aiNote").style.color = "var(--brick)"; }
+  else if(state.cfg){ $("#aiNote").style.color = ""; setAiNote(); }
+  document.title = unread ? `(${unread}) 폰진료·의료플랫폼 모니터` : "폰진료·의료플랫폼 모니터";
+  if(state.lastUnread !== null && unread > state.lastUnread){
+    const b=$("#newbar"); b.textContent=`새 글 ${unread-state.lastUnread}개가 들어왔어요. 눌러서 불러오기`; b.classList.add("show");
+  }
+  state.lastUnread = unread;
+  if(s.errors.length){
+    $("#errors").hidden = false;
+    $("#errSum").textContent = `최근 6시간 동안 수집 오류 ${s.errors.length}건`;
+    $("#errList").innerHTML = s.errors.map(e=>`<li>${esc(ago(e.at))} ${esc(e.source)} "${esc(e.keyword)}": ${esc(e.error)}</li>`).join("");
+  } else $("#errors").hidden = true;
+}
+
+/* ---------- feed ---------- */
+function itemHTML(it){
+  const names = state.stats ? Object.fromEntries(state.stats.sources.map(s=>[s.id,s.name])) : {};
+  const admin = !!(state.me && state.me.admin);  // 공개 페이지(보관본)엔 읽음·별표·글 번호가 없음 → 모두 읽은 글처럼 표시
+  return `<li class="item ${admin && !it.is_read?"unread":""}" data-id="${esc(it.id ?? "")}" data-stance="${state.topic==="delivery"?esc(it.ai_stance||""):""}">
+    <div class="edge"></div>
+    <div class="body">
+      <div class="line1"><span class="tag ${it.source}">${esc(names[it.source]||it.source)}</span>
+        <span>${esc(it.publisher)}</span><span>${ago(it.published_at)}</span>
+        ${it.views!=null?`<span>조회 ${Number(it.views).toLocaleString()}</span>`:""}
+        ${state.topic==="delivery" && it.ai_stance?`<span class="st ${esc(it.ai_stance)}">${esc(it.ai_stance)}</span>`:""}
+        ${state.topic==="delivery" && it.stance_manual?`<span class="manual">직접 고침</span>`:""}</div>
+      <h4><a href="${esc(it.url)}" target="_blank" rel="noopener noreferrer" data-open>${esc(it.title)}</a></h4>
+      ${it.snippet?`<p class="snip">${esc(it.snippet)}</p>`:""}
+      ${it.ai_summary?`<p class="ai"><b>요약</b>${esc(it.ai_summary)}</p>`:""}
+      <div class="article-tags">${(it.topics||[]).filter(x=>TOPICS[x]).map(x=>`<button class="btn" data-topic="${x}">${TOPICS[x]}</button>`).join("")}${(it.issues||[]).filter(x=>ISSUES[x]).map(x=>`<button class="btn" data-issue="${x}">${ISSUES[x]}</button>`).join("")}<span class="hint">${it.labels_status==="ai"?"AI 분류":"제목 기준 임시 · AI 분류 대기"}${!(it.issues||[]).length?" · 쟁점 없음·분류 보류":""}</span></div>
+    </div>
+    ${admin ? `<div class="side">
+      <button class="icon star ${it.starred?"on":""}" data-star aria-label="별표" title="별표">${it.starred?"★":"☆"}</button>
+      <button class="icon" data-read aria-label="${it.is_read?"안 읽음으로":"읽음으로"}" title="${it.is_read?"안 읽음으로 표시":"읽음으로 표시"}">${it.is_read?"○":"●"}</button>
+      <select class="st-edit" data-stance-edit aria-label="의약품 배송 입장 고치기" title="의약품 배송 허용에 대한 입장만 수정합니다">
+        <option value="">배송 입장 고치기</option>${["찬성","반대","중립","무관"].map(s=>`<option ${s===it.ai_stance?"selected":""}>${s}</option>`).join("")}
+      </select>
+      ${it.hidden===2
+        ? `<button class="btn small" data-ad="0" title="광고성 글이 아니면 원래 목록으로 돌려보내기">광고 아님</button>`
+        : `<button class="btn small" data-ad="2" title="광고성 글 묶음으로 옮기기">광고로 옮기기</button>
+      <button class="btn small" data-hide title="${it.hidden?"공유 페이지에 다시 보이게":"공유 페이지와 목록에서 숨기기"}">${it.hidden?"숨김 해제":"숨기기"}</button>`}
+    </div>` : ""}</li>`;
+}
+let feedVersion=0;
+async function loadFeed(append=false){
+  const version=++feedVersion;
+  if(!append) state.offset = 0;
+  const r = await api("/api/items?"+params({limit:60, offset:state.offset}));
+  if(version!==feedVersion)return;
+  state.total = r.total;
+  state.items = append ? state.items.concat(r.items) : r.items;
+  state.offset = state.items.length;
+  $("#count").textContent = `${r.total.toLocaleString()}개`;
+  if(!state.items.length){
+    const noKeys = state.cfg && !Object.values(state.cfg.secrets).some(Boolean);
+    $("#feed").innerHTML = `<li class="empty">${noKeys
+      ? `<strong>API 키를 넣으면 수집을 시작합니다</strong>구글 뉴스는 키 없이 바로 모입니다. 네이버, 다음, 유튜브는 설정에서 키를 넣어 주세요.<br><br><button class="btn primary" onclick="openSettings()">설정 열기</button>`
+      : `<strong>조건에 맞는 글이 없습니다</strong>기간을 넓히거나 필터를 풀어 보세요. 새 주제의 게시물은 수집·분류 후 표시됩니다.`}</li>`;
+  } else $("#feed").innerHTML = state.items.map(itemHTML).join("");
+  $("#moreBtn").hidden = state.items.length >= r.total;
+  $("#newbar").classList.remove("show");
+}
+async function update(id, patch){
+  await api(`/api/items/${id}`, {method:"POST", body:JSON.stringify(patch)});
+  const it = state.items.find(x=>x.id==id); Object.assign(it, patch);
+  if(patch.ai_stance) it.stance_manual = 1;
+  if("hidden" in patch){  // 숨기거나 되살린 글은 지금 목록에서 빠짐
+    state.items = state.items.filter(x=>x.id!=id); state.total -= 1;
+    document.querySelector(`.item[data-id="${id}"]`)?.remove();
+    $("#count").textContent = `${state.total.toLocaleString()}개`;
+    toast(patch.hidden===2 ? "'광고성 글'로 옮겼습니다. 20초쯤 뒤 공유 페이지에도 반영됩니다"
+        : patch.hidden ? "숨겼습니다. 20초쯤 뒤 공유 페이지에도 반영됩니다"
+        : state.topic==="ad" ? "광고 아님으로 돌려보냈습니다" : "다시 보이게 했습니다");
+  } else {
+    document.querySelector(`.item[data-id="${id}"]`).outerHTML = itemHTML(it);
+    if(patch.ai_stance) toast(`입장을 '${patch.ai_stance}'(으)로 고쳤습니다. 공유 페이지에도 곧 반영됩니다`);
+  }
+  loadStats();
+}
+
+$("#feed").addEventListener("click", e=>{
+  const topic=e.target.closest("[data-topic]"),issue=e.target.closest("[data-issue]");
+  if(topic){selectTopic(topic.dataset.topic);return;}
+  if(issue){selectIssue(issue.dataset.issue);return;}
+  if(state.me && !state.me.admin) return;  // 손님은 보기 전용
+  const li = e.target.closest(".item"); if(!li) return;
+  const id = li.dataset.id, it = state.items.find(x=>x.id==id);
+  if(e.target.closest("[data-star]")) update(id,{starred: it.starred?0:1});
+  else if(e.target.closest("[data-read]")) update(id,{is_read: it.is_read?0:1});
+  else if(e.target.closest("[data-ad]")) update(id,{hidden: Number(e.target.closest("[data-ad]").dataset.ad)});
+  else if(e.target.closest("[data-hide]")) update(id,{hidden: it.hidden?0:1});
+  else if(e.target.closest("[data-open]") && !it.is_read) update(id,{is_read:1});
+});
+$("#feed").addEventListener("change", e=>{
+  const sel = e.target.closest("[data-stance-edit]"); if(!sel || !sel.value) return;
+  if(state.me && !state.me.admin) return;
+  update(sel.closest(".item").dataset.id, {ai_stance: sel.value});
+});
+$("#showHidden").addEventListener("change", ()=>loadFeed());
+$("#tchart").addEventListener("mouseover", trendTip);
+$("#tchart").addEventListener("focusin", trendTip);
+$("#tchart").addEventListener("mouseleave", ()=>$("#tchart .ttip")?.remove());
+$("#tchart").addEventListener("focusout", ()=>$("#tchart .ttip")?.remove());
+$("#sumBtn").onclick = async ()=>{
+  const b = $("#sumBtn"); b.disabled = true; b.textContent = "요약 만드는 중…";
+  try{ const r = await api("/api/summary", {method:"POST"});
+       toast(r.ok ? "오늘의 요약을 새로 만들었습니다" : (r.message || "요약을 만들지 못했습니다")); await loadStats(); }
+  catch(e){ toast("요약 실패: " + e.message); }
+  b.disabled = false; b.textContent = "요약 다시 만들기";
+};
+$("#sources").addEventListener("click", e=>{
+  const b = e.target.closest(".src"); if(!b) return;
+  state.source = b.dataset.src; renderSources(state.stats.sources); loadFeed();
+});
+let qTimer; $("#q").addEventListener("input", ()=>{clearTimeout(qTimer); qTimer=setTimeout(()=>loadFeed(),250)});
+["#days","#stanceSel","#sort","#unread","#starred","#hideIrr"].forEach(s=>$(s).addEventListener("change",()=>loadFeed()));
+$("#moreBtn").onclick = ()=>loadFeed(true);
+$("#newbar").onclick = ()=>{loadFeed(); window.scrollTo({top:0})};
+$("#readAllBtn").onclick = async ()=>{await api("/api/mark_all_read?"+params(),{method:"POST"}); toast("모두 읽음으로 표시했어요"); loadFeed(); loadStats()};
+$("#csvBtn").onclick = ()=>{ if(window.SNAPSHOT) snapCsv(); else location.href = "/api/export.csv?"+params(); };
+$("#collectBtn").onclick = async ()=>{
+  const r = await api("/api/collect",{method:"POST"});
+  toast(r.ok ? "수집을 시작했어요" : r.message); loadStats();
+  const poll = setInterval(async ()=>{await loadStats(); if(!state.stats.collecting){clearInterval(poll); loadFeed(); toast("수집을 마쳤어요")}}, 2500);
+};
+$("#aiBtn").onclick = async ()=>{
+  const r = await api("/api/ai",{method:"POST"});
+  toast(r.ok ? "AI 분석을 시작했어요. 25개씩 처리합니다" : r.message); loadStats();
+  if(r.ok){const poll=setInterval(async()=>{await loadStats(); if(!state.stats.ai_running){clearInterval(poll); loadFeed();
+    toast(state.stats.ai_error ? state.stats.ai_error : "AI 분석을 마쳤어요")}},3000)}
+};
+
+/* ---------- 공유(보기 전용) ---------- */
+function renderGuests(list){
+  $("#guestList").innerHTML = list.length
+    ? list.map(g=>`<li><span class="name">${esc(g.name||"이름 없음")}</span><code>${esc(g.code)}</code>
+        <button type="button" class="btn small" data-del="${esc(g.code)}">삭제</button></li>`).join("")
+    : `<li class="hint">아직 발급한 코드가 없습니다.</li>`;
+}
+function paintShare(s){
+  $("#shareOn").checked = s.enabled;
+  $("#sharePublic").checked = s.public;
+  $("#shareUrl").innerHTML = s.enabled
+    ? `이 컴퓨터가 켜져 있는 동안 <b>${esc(s.lan_url)}</b> 주소로 접속합니다. (같은 인터넷망)`
+    : "끄면 이 컴퓨터에서만 볼 수 있습니다.";
+  $("#publicWarn").innerHTML = s.public
+    ? "⚠ 지금은 <b>주소를 아는 사람은 누구나</b> 볼 수 있습니다. 링크가 퍼지면 막을 수 없으니 주의하세요. (검색엔진 노출은 막아 두었습니다)"
+    : "체크하지 않으면 아래에서 만든 접속 코드를 넣어야 볼 수 있습니다.";
+  $("#publicWarn").style.color = s.public ? "var(--brick)" : "";
+  renderGuests(s.guests);
+}
+async function loadShare(){ paintShare(await api("/api/share")); }
+async function share(body){
+  const r = await api("/api/share", {method:"POST", body:JSON.stringify(body)});
+  paintShare(r);
+  return r;
+}
+$("#sharePublic").onchange = async e => {
+  await share({public: e.target.checked});
+  toast(e.target.checked ? "주소만 알면 볼 수 있게 바꿨습니다" : "이제 접속 코드가 필요합니다");
+};
+$("#shareOn").onchange = async e => {
+  await share({enabled: e.target.checked});
+  toast(e.target.checked ? "공유를 켰습니다. 프로그램을 다시 시작해야 적용됩니다" : "공유를 껐습니다. 다시 시작하면 적용됩니다");
+};
+$("#addGuest").onclick = async ()=>{
+  const name = $("#guestName").value.trim();
+  if(!name) return toast("볼 사람 이름을 적어 주세요");
+  await share({add_name: name});
+  $("#guestName").value = "";
+  toast("코드를 만들었습니다. 그 사람에게만 알려 주세요");
+};
+$("#guestList").onclick = async e => {
+  const b = e.target.closest("[data-del]"); if(!b) return;
+  await share({remove_code: b.dataset.del});
+  toast("삭제했습니다. 이제 그 코드로는 볼 수 없습니다");
+};
+
+/* ---------- 온라인 보관본 ---------- */
+function paintPublish(c){
+  const parts = [];
+  if(c.publish_url) parts.push(`주소: <a href="${esc(c.publish_url)}" target="_blank" rel="noopener noreferrer">${esc(c.publish_url)}</a>`);
+  if(c.publish_last) parts.push(`마지막으로 올림 ${esc(ago(c.publish_last))}`);
+  if(c.publish_error) parts.push(`<span style="color:var(--brick)">⚠ ${esc(c.publish_error)}</span>`);
+  if(c.gh_token_expires) parts.push(c.gh_token_days_left == null ? `토큰 만료일: ${esc(c.gh_token_expires)}`
+    : `토큰 만료일: ${esc(c.gh_token_expires)} (${c.gh_token_days_left}일 남음)`);
+  $("#webkrInfo").textContent = `네이버 웹문서 검색(커뮤니티 보강): ${c.webkr_status || "아직 시도 전"} · 네이버 API HUB 요금: ${c.hub_price_status || "아직 확인 전"}`;
+  $("#publishInfo").innerHTML = parts.join(" · ") || "저장소와 토큰을 넣고 설정을 저장한 뒤 '지금 올리기'를 눌러 보세요.";
+  const cl = [];
+  if(c.cloud_private_setup_needed){
+    cl.push("수집용 비공개 저장소 연결이 필요합니다. 로컬 수집과 공개 보관본은 계속 사용할 수 있습니다.");
+  } else if(c.cloud && c.cloud.enabled){
+    cl.push(c.cloud_last_seen ? `클라우드가 마지막으로 수집: ${esc(ago(c.cloud_last_seen))}` : "클라우드 수집 기록 아직 없음");
+    if(c.cloud_last_push) cl.push(`이 컴퓨터가 마지막으로 올림: ${esc(ago(c.cloud_last_push))}`);
+    if(c.cloud_actions_url) cl.push(`<a href="${esc(c.cloud_actions_url)}" target="_blank" rel="noopener noreferrer">실행 기록 보기</a>`);
+    if(c.cloud_error) cl.push(`<span style="color:var(--brick)">⚠ ${esc(c.cloud_error)}</span>`);
+  } else cl.push("켜면 이 컴퓨터가 45분 넘게 꺼져 있을 때 GitHub가 30분마다 대신 수집합니다. (비공개 저장소의 자동수집 설정 필요)");
+  $("#cloudInfo").innerHTML = cl.join(" · ");
+}
+$("#publishNow").onclick = async ()=>{
+  const b = $("#publishNow"); b.disabled = true; b.textContent = "올리는 중…";
+  try{
+    const r = await api("/api/publish", {method:"POST"});
+    toast(r.message);
+    state.cfg = await api("/api/config"); paintPublish(state.cfg);
+  }catch(e){ toast("올리기 실패: " + e.message); }
+  b.disabled = false; b.textContent = "지금 올리기";
+};
+
+/* ---------- settings ---------- */
+async function loadConfig(){
+  state.cfg = await api("/api/config");
+  setAiNote();
+  paintTokenWarn(state.cfg);
+  paintHubWarn(state.cfg);
+}
+function paintHubWarn(c){  // 약사님 화면에만: 네이버 API HUB 유료 전환 감지
+  const el = $("#hubWarn");
+  el.hidden = !c.hub_price_alert;
+  if(c.hub_price_alert) el.innerHTML = `<b>네이버 API 요금 확인 필요</b> ${esc(c.hub_price_alert)} `
+    + `<a href="https://www.ncloud.com/support/notice/all" target="_blank" rel="noopener">네이버 클라우드 공지사항 열기</a>`
+    + ` · 요금이 부담되면 설정 → 수집에서 네이버 뉴스·블로그·카페 체크를 끄면 네이버 API를 쓰지 않습니다.`;
+}
+function paintTokenWarn(c){  // 약사님 화면에만: 깃허브 토큰 만료 14일 전부터 빨간 안내
+  const d = c.gh_token_days_left, el = $("#tokenWarn");
+  if(d == null || d > 14){ el.hidden = true; return; }
+  el.hidden = false;
+  el.innerHTML = d < 0
+    ? `<b>깃허브 토큰이 만료됐습니다</b> (${esc(c.gh_token_expires)}). 공유 페이지가 더 이상 갱신되지 않습니다. 새 토큰을 만들어 설정 → "컴퓨터가 꺼져 있어도 보기"의 토큰 칸에 넣어 주세요.`
+    : `<b>깃허브 토큰이 ${d}일 뒤 만료됩니다</b> (${esc(c.gh_token_expires)}). 만료되면 공유 페이지가 멈추니, 그 전에 새 토큰을 만들어 설정 → "컴퓨터가 꺼져 있어도 보기"의 토큰 칸에 넣어 주세요.`;
+}
+function setAiNote(){
+  $("#aiNote").textContent = state.cfg.claude_found
+    ? "Claude Code(claude -p)를 사용합니다. 구독 요금제 사용량에서 차감됩니다."
+    : "claude CLI가 없어 AI 분석을 쓸 수 없습니다. README의 안내를 참고하세요.";
+}
+function openSettings(){
+  const c = state.cfg, f = $("#settingsForm");
+  for(const k of ["naver_client_id","naver_client_secret","kakao_rest_key","youtube_api_key","github_token"]){
+    f[k].value = ""; f[k].placeholder = c.secrets[k] ? "저장됨 (바꿀 때만 입력)" : "";
+    document.querySelector(`[data-s="${k}"]`).textContent = c.secrets[k] ? "저장됨" : "";
+  }
+  f.keywords.value = c.keywords.join("\n");
+  f.relevance_words.value = c.relevance_words.join("\n");
+  f.exclude_words.value = c.exclude_words.join("\n");
+  f.interval_minutes.value = c.interval_minutes;
+  f.youtube_interval_minutes.value = c.youtube_interval_minutes;
+  f.ai_enabled.checked = c.ai_enabled;
+  f.publish_enabled.checked = !!(c.publish && c.publish.enabled);
+  f.publish_repo.value = (c.publish && c.publish.repo) || "";
+  f.cloud_enabled.checked = !!(c.cloud && c.cloud.enabled);
+  f.cloud_repo.value = (c.cloud && c.cloud.repo) || "";
+  paintPublish(c);
+  $("#srcChecks").innerHTML = Object.entries(c.source_names).map(([k,n])=>
+    `<label class="toggle"><input type="checkbox" data-srcchk="${k}" ${c.sources[k]?"checked":""}> ${n}</label>`).join("");
+  $("#claudeHint").textContent = c.claude_found
+    ? "claude CLI를 찾았습니다. 25개씩 묶어 한 번에 분석하므로 사용량 부담이 적습니다."
+    : "claude CLI를 찾지 못했습니다. Claude Code를 설치하고 claude 명령으로 한 번 로그인한 뒤 다시 실행하세요.";
+  loadShare().catch(()=>{});
+  $("#dlg").showModal();
+}
+$("#settingsBtn").onclick = openSettings;
+$("#settingsForm").addEventListener("submit", async e=>{
+  if(e.submitter?.value !== "default") return;
+  e.preventDefault();
+  const f = e.target, lines = v => v.split("\n").map(s=>s.trim()).filter(Boolean);
+  const body = {
+    keywords: lines(f.keywords.value), relevance_words: lines(f.relevance_words.value),
+    exclude_words: lines(f.exclude_words.value),
+    interval_minutes: f.interval_minutes.value, youtube_interval_minutes: f.youtube_interval_minutes.value,
+    ai_enabled: f.ai_enabled.checked,
+    publish_enabled: f.publish_enabled.checked, publish_repo: f.publish_repo.value,
+    cloud_enabled: f.cloud_enabled.checked, cloud_repo: f.cloud_repo.value,
+    sources: Object.fromEntries([...document.querySelectorAll("[data-srcchk]")].map(i=>[i.dataset.srcchk,i.checked])),
+  };
+  for(const k of ["naver_client_id","naver_client_secret","kakao_rest_key","youtube_api_key","github_token"]) if(f[k].value.trim()) body[k]=f[k].value.trim();
+  await api("/api/config",{method:"POST", body:JSON.stringify(body)});
+  $("#dlg").close(); toast("설정을 저장했어요");
+  state.quickDone = false; await loadConfig(); loadStats(); loadFeed();
+});
+
+function applyGuestMode(){
+  document.body.classList.add("guest");
+  $("#notice").hidden = false;  // 다른 사람이 보는 화면에만 안내 문구
+  // 공유 페이지에서는 '직접 확인할 곳' 바로가기(일베·디시 등 구글 검색 링크)와 관리용 기능을 감춤
+  document.querySelector("aside h3").hidden = true;
+  $("#quick").hidden = true;
+  $("#hiddenToggle").hidden = true;
+  $("#sumBtn").hidden = true;
+  ["#collectBtn","#settingsBtn","#aiBtn","#readAllBtn","#unreadToggle","#starredToggle"].forEach(s=>{ const el = $(s); if(el) el.hidden = true; });
+  const v = document.createElement("div");
+  v.className = "viewer";
+  v.innerHTML = state.me.snapshot
+    ? `보관본 · ${esc(new Date(snap.generated_at).toLocaleString("ko-KR",{month:"numeric",day:"numeric",hour:"2-digit",minute:"2-digit"}))} 기준`
+    : state.me.name
+      ? `${esc(state.me.name)}님 · 보기 전용 <a href="/logout">로그아웃</a>`
+      : "보기 전용";
+  document.querySelector("header").appendChild(v);
+}
+
+(async ()=>{
+  topicControls();
+  state.me = await api("/api/me");
+  if(state.me.admin){ await loadConfig(); $("#sumBtn").hidden = !state.cfg.claude_found; }
+  else applyGuestMode();
+  await loadStats(); await loadFeed();
+  if(window.SNAPSHOT) setInterval(snapRefresh, DATA_REFRESH_INTERVAL);
+  else setInterval(loadStats, 30000);  // 로컬 관리자 화면의 수집 진행 상태만 30초마다 확인
+})();
+</script>
+</body>
+</html>
