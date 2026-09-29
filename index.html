@@ -950,6 +950,7 @@ function paintPublish(c){
   if(c.gh_token_expires) parts.push(c.gh_token_days_left == null ? `토큰 만료일: ${esc(c.gh_token_expires)}`
     : `토큰 만료일: ${esc(c.gh_token_expires)} (${c.gh_token_days_left}일 남음)`);
   $("#webkrInfo").textContent = `네이버 웹문서 검색(커뮤니티 보강): ${c.webkr_status || "아직 시도 전"} · 네이버 API HUB 요금: ${c.hub_price_status || "아직 확인 전"}`;
+  parts.push("공유 페이지는 이 컴퓨터가 켜져 있을 때만 갱신됩니다 (깃허브는 글만 모아 둡니다)");
   $("#publishInfo").innerHTML = parts.join(" · ") || "저장소와 토큰을 넣고 설정을 저장한 뒤 '지금 올리기'를 눌러 보세요.";
   const cl = [];
   if(c.cloud_private_setup_needed){
