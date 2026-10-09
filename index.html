@@ -984,7 +984,7 @@ function paintHubWarn(c){  // 약사님 화면에만: 네이버 API HUB 유료 �
   const el = $("#hubWarn");
   el.hidden = !c.hub_price_alert;
   if(c.hub_price_alert) el.innerHTML = `<b>네이버 API 요금 확인 필요</b> ${esc(c.hub_price_alert)} `
-    + `<a href="https://www.ncloud.com/support/notice/all" target="_blank" rel="noopener">네이버 클라우드 공지사항 열기</a>`
+    + `<a href="https://www.ncloud.com/support/notice/all" target="_blank" rel="noopener noreferrer">네이버 클라우드 공지사항 열기</a>`
     + ` · 요금이 부담되면 설정 → 수집에서 네이버 뉴스·블로그·카페 체크를 끄면 네이버 API를 쓰지 않습니다.`;
 }
 function paintTokenWarn(c){  // 약사님 화면에만: 깃허브 토큰 만료 14일 전부터 빨간 안내
